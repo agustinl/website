@@ -1,0 +1,41 @@
+{
+	"title":{
+		 "index":"Sapper project template!"
+	},
+	"nav":{
+		 "charging":"Charging",
+		 "mobility":"Mobility",
+		 "energy":"Energy",
+		 "contact":"Contacto"
+	},
+	"charging":{
+		 "sub":"<strong>GAIA GREEN TECH</strong> IS",
+		 "title":"Accessible<br>charging network",
+		 "lead":"Imagine a world where everything is as ideal as can be. And you are participating in that situation. Sounds perfect, right?"
+	},
+	"mobility":{
+		"sub":"<strong>GAIA GREEN TECH</strong> IS",
+		 "title":"Sustainable<br>mobility",
+		 "lead":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor odio sed eros adipiscing commodo. Tempor semper orci, fames neque."
+	},
+	"energy":{
+		"sub":"<strong>GAIA GREEN TECH</strong> IS",
+		 "title":"Clean<br>energy supply",
+		 "lead":"Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Porttitor odio sed eros adipiscing commodo. Tempor semper orci, fames neque."
+	},
+	"contact":{
+		 "title":"Let's connect!",
+		 "lead":"Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Porttitor odio sed eros adipiscing commodo. Tempor semper orci, fames neque."
+	},
+	"form":{
+		 "name":"Your name",
+		 "email":"user@domain.com",
+		 "message":"Leave us a message",
+		 "cta":"Send message"
+	},
+	"terms":"Privacy Terms",
+	"languages":{
+		 "en":"EN",
+		 "es":"ES"
+	}
+}
