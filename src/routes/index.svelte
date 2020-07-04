@@ -83,7 +83,7 @@
 			<a 
 				class="nav__link"
 				class:is-active={$locale.includes(item)}
-				href="/"
+				href={`#!${item}`}
 				on:click={() => ($locale = item)}>
 				{$_('languages.' + item.replace('-', '_'))}
 			</a>

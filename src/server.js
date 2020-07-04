@@ -8,13 +8,15 @@ import { i18nMiddleware } from './i18n.js';
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
-polka()
-	.use(
+const app = polka();
+	app.use(
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		i18nMiddleware(),
 		sapper.middleware()
 	)
-	.listen(PORT, (err) => {
+	app.listen(PORT, (err) => {
 		if (err) console.log('error', err);
 	});
+
+export default app
